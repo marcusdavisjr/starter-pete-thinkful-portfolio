@@ -81,3 +81,8 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+.about {
+  display: flex;
+  align-items: center;
+}
