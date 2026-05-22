@@ -43,10 +43,10 @@ I did not experience any significant challenges or debugging while updating this
 ## Development Screenshots
 
 **HTML**
-![Header HTML](header-html.png)
-![About HTML](about-html.png)
-![Portfolio HTML](portfolio-html.png)
+![Header HTML](images/references/header-html.png)
+![About HTML](images/references/about-html.png)
+![Portfolio HTML](images/references/portfolio-html.png)
 
 **CSS**
-![Header CSS](header-css.png)
-![About-Portfolio CSS](portfolio-about-flex-css.png)
+![Header CSS](images/references/header-css.png)
+![About-Portfolio CSS](images/references/portfolio-about-flex-css.png)
