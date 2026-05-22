@@ -1,45 +1,52 @@
-# Pete's Portfolio Starter Project
+# Pete's Portfolio Redesign
+Pete Thinkful's Portfolio website design
 
-This repository contains a starter template for Pete's portfolio. The project helps you learn how to create a personal portfolio page using HTML and CSS, while also getting familiar with basic design principles.
+## Project Description
+The project is a hypothetical design update to a single page web portfolio for an artist named Pete. The content in the header, about section, and portfolio section have been updated using CSS Flexible Box Layout. The page is built using basic HTML/CSS that was coded with Visual Studio Code.
 
-## Project Overview
+## Design & Implementation Process
 
-This portfolio website template serves as a foundation to showcase your projects, skills, and experience as a developer. It includes pre-designed sections for an introduction, project gallery, skills, and contact information. You are encouraged to modify and extend the design to fit your personal style.
+### Implementation Plan:
+1. Used Figma to create an updated version of the wireframe based on the redesigned mockup.
+2. Fork and clone the provided repository to local machine.
+3. Use VSCode to update the structure of the HTML for the appropriate sections.
+4. Reformat the sections using CSS Flexbox.
+5. Use W3C Markup Validation Serivce to validate and debug code.
 
-## Features
+### Original Mockup
+![Pete-Portfolio Mockup](images/references/mockup-1.png)
 
-- **Responsive Layout**: The template is designed to be mobile-friendly, ensuring that your portfolio looks great on all devices.
-- **Customizable Design**: Easily update images, colors, and content through the HTML and CSS files.
-- **Gallery Section**: Showcase your projects with space for project descriptions and links.
-- **Contact Form**: Pre-built form to collect inquiries and messages from visitors.
+### Revised Mockup
+![Pete-Portfolio Revised Mockup](images/references/mockup-2.png)
 
-## Installation
+### Revised Wireframe
+![wireframe](images/references/wireframe.png)
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Thinkful-Ed/starter-pete-thinkful-portfolio.git
-   cd starter-pete-thinkful-portfolio
-   ```
+## Design Trade-offs
+This is a very simple single page website, so there were no major trade-offs that I needed to make in the design to fulfill the requirements of the project.
 
-2. **Open the project**:
-   You can simply open `index.html` in your browser to view the website locally.
+## AI Tool Disclosure
+**CodeGPT** Used for inline code suggestions and auto complete. 
 
-## Getting Started
+## Key Decisions
+1. For each of the updated sections, `display: flex;` is used with the default direction so that the content is displayed in a row.
+2. The `<nav>` section is placed inside the `<header>`. The header section width is set to 600px to align with the rest of the content of the page. For the flexbox, `align-items: center;` and `justify-content: space between;` are used to format the content within the container for desired alignment.
+3. The image `<div>` and the first paragraph `<section>` in the About section are both wrapped in a `<section>` container. `align-items: center;` is used to center align the image with the introductory paragraph. 
+4. In the Portfolio section, the content for the three art pieces are placed in `<section>` containers. All three are wrapped in a `<div>` using `align-items: flex-start;` to top align each piece within the section. The font-size for the art descriptions have been reduced to 14pt to better accommodate the space.
 
-Once you have the repository cloned, feel free to modify the HTML and CSS to add your personal details:
-- Update the **profile picture** and **about section** in `index.html`.
-- Add your own **project details** in the gallery section.
-- Customize colors and fonts in the `style.css` file to match your preferences.
+## Challenges & Debugging
+I did not experience any significant challenges or debugging while updating this webpage.
 
-## Customization
+## GitHub Commit History
+(https://github.com/marcusdavisjr/starter-pete-thinkful-portfolio/commits/main)
 
-This template is meant to be a starting point. Here are some suggestions for customization:
-- Replace the placeholder images in the `images/` folder with your own.
-- Modify the layout, fonts, and colors in `style.css` to make it unique.
-- Add additional sections for skills, experience, or testimonials as needed.
+## Development Screenshots
 
-## Technologies
+**HTML**
+![Header HTML](header-html.png)
+![About HTML](about-html.png)
+![Portfolio HTML](portfolio-html.png)
 
-- **HTML**: Structure of the web pages.
-- **CSS**: Styling and layout of the portfolio.
-- **Responsive Design**: Built with mobile-first principles in mind.
+**CSS**
+![Header CSS](header-css.png)
+![About-Portfolio CSS](portfolio-about-flex-css.png)
