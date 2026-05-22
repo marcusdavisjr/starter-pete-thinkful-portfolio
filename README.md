@@ -1,5 +1,5 @@
 # Pete's Portfolio Redesign
-Pete Thinkful's Portfolio website design
+An update to Pete Thinkful's online portfolio 
 
 ## Project Description
 The project is a hypothetical design update to a single page web portfolio for an artist named Pete. The content in the header, about section, and portfolio section have been updated using CSS Flexible Box Layout. The page is built using basic HTML/CSS that was coded with Visual Studio Code.
@@ -43,10 +43,14 @@ I did not experience any significant challenges or debugging while updating this
 ## Development Screenshots
 
 **HTML**
+
 ![Header HTML](images/references/header-html.png)
 ![About HTML](images/references/about-html.png)
 ![Portfolio HTML](images/references/portfolio-html.png)
 
+*****
+
 **CSS**
+
 ![Header CSS](images/references/header-css.png)
 ![About-Portfolio CSS](images/references/portfolio-about-flex-css.png)
